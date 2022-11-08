@@ -6,6 +6,7 @@ public class Test {
 
 		System.out.println("다 날아갔네...");
 		System.out.print("아아악");
+		System.out.print("될때까지한다");
 	}
 
 }
