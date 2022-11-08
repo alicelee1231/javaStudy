@@ -8,6 +8,7 @@ public class Test {
 		System.out.print("아아악");
 		System.out.print("될때까지한다");
 		System.out.println("뭐가문제지");
+		System.out.println("뭐가문제");
 	}
 
 }
