@@ -33,7 +33,6 @@ class Deck{
     void shuffle(){
         for(int i = 0; i<cardArr.length; i++){
             int r = (int)(Math.random() * CARD_NUM);
-
             Card temp = cardArr[i];
             cardArr[i] = cardArr[r];
             cardArr[r] = temp;
