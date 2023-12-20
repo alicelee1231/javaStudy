@@ -1,7 +1,7 @@
 class Dect{
     public static void main(String args[]){
         Deck d = new Deck();
-        Card c = d.pick(0);
+        Card c = d.pick(1);
         System.out.println(c);
 
         d.shuffle();
@@ -65,5 +65,5 @@ class Card{
         String[] kinds = {"", "CLOVER", "HEART","DIAMOND","SPADE"};
         String numbers = "0123456789XKSW";
         return "kind: " + kinds[this.kind] + ", number : " + numbers.charAt(this.number);
-    }
+    } 
 }
